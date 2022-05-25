@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staff</title>
+  <link rel="stylesheet" href="../styles/style.css">
+  <script type="text/javascript" src="../styles/style.js"></script>
+</head>
+<body class="farsi">
+  
+  <nav-bar id="mySidenav" name="III" onclick="this.classList.toggle('clicked')">
+    <bar-btn href="javascript:void(0)" class="closebtn" onclick="closeNav()"></bar-btn>
+    <bar-btn btn1 btn-title="خانه" onclick="document.location='home-fa.html'"></bar-btn>
+    <bar-btn btn2 btn-title="اهداف"></bar-btn>
+    <bar-btn btn3 btn-title="فعالیتها"></bar-btn>
+    <bar-btn btn4 btn-title="اعضا" onclick="document.location='staff-fa.html'"></bar-btn>
+    <bar-btn btn5 btn-title="آر اند دی"></bar-btn>
+    <bar-btn btn6 btn-title="عکسها"></bar-btn>
+    <bar-btn btn7 btn-title="قرارها"></bar-btn>
+    <bar-btn btn8 btn-title="محصولات"></bar-btn>
+    <bar-btn btn9 btn-title="تماس با ما"></bar-btn>
+  </nav-bar>
+
+    <span style="font-size:30px;cursor:pointer" class="openbtn" onclick="openNav()"></span>
+    <span class="crazy" onclick="closeNav()"></span>
+
+  <side-bar>
+    <!-- <img-btn person1 person-title="Person #1" onclick="this.classList.toggle('clicked')"><img src="pictures/cat1.jpeg" alt=""></img-btn>
+    <img-btn person2 person-title="Person #2" onclick="this.classList.toggle('clicked')"><img src="pictures/cat2.jpeg" alt=""></img-btn>
+    <img-btn person3 person-title="Person #3"><img src="pictures/cat3.webp" alt=""></img-btn>
+    <img-btn person4 person-title="Person #4"><img src="pictures/cat4.jpeg" alt=""></img-btn>
+    <img-btn person5 person-title="Person #5"><img src="pictures/cat5.jpeg" alt=""></img-btn>
+    <img-btn person6 person-title="Person #6"><img src="pictures/cat6.jpeg" alt=""></img-btn>
+    <img-btn person7 person-title="Person #7"><img src="pictures/cat7.jpeg" alt=""></img-btn>
+    <img-btn person8 person-title="Person #8"><img src="pictures/cat8.webp" alt=""></img-btn> -->
+
+    <div id="s1">
+      <div id="s2">
+        <div id="s3">
+          <div id="s4">
+            <div id="s5">
+              <div id="s6">
+                <div id="s7">
+                  <div id="s8">
+                    <lang-picker>
+                      <a href="../En/staff.html">En</a>
+                      <a space-btw> / </a>
+                      <a href="../Fa/staff-fa.html">فا</a>
+                    </lang-picker>
+                    <ul class="menu">
+                      <a href="#s1"><li class="staff" no1><img src="../pictures/father.jpeg"></li></a>
+                      <a href="#s2"><li class="staff" no2><img src="../pictures/cat2.jpeg"></li></a>
+                      <a href="#s3"><li class="staff" no3><img src="../pictures/cat3.webp"></li></a>
+                      <a href="#s4"><li class="staff" no4><img src="../pictures/cat4.jpeg"></li></a>
+                      <a href="#s5"><li class="staff" no5><img src="../pictures/cat5.jpeg"></li></a>
+                      <a href="#s6"><li class="staff" no6><img src="../pictures/cat6.jpeg"></li></a>
+                      <a href="#s7"><li class="staff" no7><img src="../pictures/cat7.jpeg"></li></a>
+                      <a href="#s8"><li class="staff" no8><img src="../pictures/cat8.webp"></li></a>
+                    </ul>
+
+                    <div class="page" id="p1">
+                      <section class="staff">
+                        <img personal-img src="../pictures/father.jpeg">
+                        <span title>نام و نام خانوادگی</span>
+                        <span info>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد<br> نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید<br> داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</span>
+                      </section>
+                    </div>
+
+                    <div class="page" id="p2">
+                      <section class="staff">
+                        <img personal-img src="../pictures/cat2.jpeg">
+                        <span title>نام و نام خانوادگی</span>
+                        <span info>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطر در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</span>
+                      </section>
+                    </div>
+
+                    <div class="page" id="p3">
+                      <section class="staff">
+                        <img personal-img src="../pictures/cat3.webp">
+                        <span title>نام و نام خانوادگی</span>
+                        <span info>لورم ایپسوم متن ساختگی با تولید سادگی نامفد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو<br> در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی<br> سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</span>
+                      </section>
+                    </div>
+
+                    <div class="page" id="p4">
+                      <section class="staff">
+                        <img personal-img src="../pictures/cat4.jpeg">
+                        <span title>نام و نام خانوادگی</span>
+                        <span info>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان </span>
+                      </section>
+                    </div>
+
+                    <div class="page" id="p5">
+                      <section class="staff">
+                        <img personal-img src="../pictures/cat5.jpeg">
+                        <span title>نام و نام خانوادگی</span>
+                        <span info>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون <br> طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای<br> موجود طراحی اساسا مورد استفاده قرار گیرد.</span>
+                      </section>
+                    </div>
+
+                    <div class="page" id="p6">
+                      <section class="staff">
+                        <img personal-img src="../pictures/cat6.jpeg">
+                        <span title>نام و نام خانوادگی</span>
+                        <span info>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه<br> روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته،<br> حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط<br> سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</span>
+                      </section>
+                    </div>
+
+                    <div class="page" id="p7">
+                      <section class="staff">
+                        <img personal-img src="../pictures/cat7.jpeg">
+                        <span title>نام و نام خانوادگی</span>
+                        <span info>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کار<br> وجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</span>
+                      </section>
+                    </div>
+
+                    <div class="page" id="p8">
+                      <section class="staff">
+                        <img personal-img src="../pictures/cat8.webp">
+                        <span title>نام و نام خانوادگی</span>
+                        <span info>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان<br> گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کت<br> وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</span>
+                      </section>
+                    </div>                     
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </side-bar>
+  
+</body>
+</html>

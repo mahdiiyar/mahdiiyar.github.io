@@ -1,0 +1,32 @@
+:root {
+  --base: 20vmin;
+  --transition: all 0.25s;
+  --gradient: linear-gradient(-45deg, #ffffff, #a6a6a6, #4a4a4a, #000000);
+  --font-gradient: linear-gradient(60deg, #797272, #443f46, #192637, #2d2d2e);
+}
+body {
+  background-color: rgb(156, 130, 130);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.farsi {
+  /* font-family: 'Baloo Bhaijaan 2', cursive; */
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+@keyframes glitch {
+	0%  				{ clip-path: polygon(	0 2% , 100% 2% , 100% 5% , 0 5%  ); opacity: 1	}
+	2%  				{ clip-path: polygon(	0 15%, 100% 15%, 100% 15%, 0 15% ) 				      }
+	4%  				{ clip-path: polygon(	0 10%, 100% 10%, 100% 20%, 0 20% ) 				      }
+	6%  				{ clip-path: polygon(	0 1% , 100% 1% , 100% 2% , 0 2%  ) 						  }
+	8%  				{ clip-path: polygon(	0 33%, 100% 33%, 100% 33%, 0 33% )					    }
+	10% 				{ clip-path: polygon(	0 44%, 100% 44%, 100% 44%, 0 44% )					    }
+	12% 				{ clip-path: polygon(	0 50%, 100% 50%, 100% 20%, 0 20% )					    }
+	14% 				{ clip-path: polygon(	0 70%, 100% 70%, 100% 70%, 0 70% )					    }
+	16% 				{ clip-path: polygon(	0 80%, 100% 80%, 100% 80%, 0 80% )					    }
+	18% 				{ clip-path: polygon(	0 50%, 100% 50%, 100% 55%, 0 55% )					    }
+	20% 				{ clip-path: polygon(	0 70%, 100% 70%, 100% 80%, 0 80% )					    }
+	21.9% 			{ clip-path: polygon(	0 50%, 100% 50%, 100% 55%, 0 55% )					    }
+	28% 				{ opacity: 1 																										      }
+	82%, 100% 	{ clip-path: polygon( 0 0  , 0 0     , 0 0     , 0 0   ); opacity: 0						      }
+}

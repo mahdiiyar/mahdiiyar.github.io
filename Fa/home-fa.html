@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trailer</title>
+  <link rel="stylesheet" href="../styles/style.css">
+  <script type="text/javascript" src="../styles/style.js"></script>
+</head>
+<body class="farsi" onclick="this.classList.toggle('clicked')">
+  <video autoplay muted loop id="myVideo">
+    <source src="../img/kambucha3x.mp4" type="video/mp4">
+  </video>
+  
+  <lang-picker>
+    <a href="../En/home.html">En</a>
+    <a space-btw> / </a>
+    <a href="../Fa/home-fa.html">فا</a>
+  </lang-picker>
+
+  <nav-bar id="mySidenav" name="III" onclick="this.classList.toggle('clicked')">
+    <bar-btn href="javascript:void(0)" class="closebtn" onclick="closeNav()"></bar-btn>
+    <bar-btn btn1 btn-title="خانه" onclick="document.location='home-fa.html'"></bar-btn>
+    <bar-btn btn2 btn-title="اهداف"></bar-btn>
+    <bar-btn btn3 btn-title="فعالیتها"></bar-btn>
+    <bar-btn btn4 btn-title="اعضا" onclick="document.location='staff-fa.html'"></bar-btn>
+    <bar-btn btn5 btn-title="آر اند دی"></bar-btn>
+    <bar-btn btn6 btn-title="عکسها"></bar-btn>
+    <bar-btn btn7 btn-title="قرارها"></bar-btn>
+    <bar-btn btn8 btn-title="محصولات"></bar-btn>
+    <bar-btn btn9 btn-title="تماس با ما"></bar-btn>
+  </nav-bar>
+
+    <span style="font-size:30px;cursor:pointer" class="openbtn" onclick="openNav()"></span>
+    <span class="crazy" onclick="closeNav()"></span>
+
+  <main-pics>
+    <main-page-pic pic1 data-title="فعالیتها"></main-page-pic>
+    <main-page-pic pic2 data-title="اعضا" onclick="document.location='staff-fa.html'"></main-page-pic>
+    <main-page-pic pic3 data-title="تماس با ما"></main-page-pic>
+  </main-pics>
+
+</body>
+</html>
