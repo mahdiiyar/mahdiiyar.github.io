@@ -51,7 +51,7 @@ img-btn::after {
 
 
 html, body, .page{
-  /* width: 100%; */
+  width: 100%;
   /* height: calc(var(--base) * 4.4); */
   height: 83%;
   margin: 0;
@@ -64,9 +64,13 @@ html, body, .page{
 
 }
 
+body {
+  position: relative;
+}
+
 .page {
   position: absolute;
-  overflow-y: scroll;
+  overflow: scroll;
   margin-top: 6vh;
 }
 
@@ -269,11 +273,6 @@ img {
 }
 
 @media (max-width: 750px) {
-  html, body, .page {
-    overflow: hidden;
-    width: 300px;
-  }
-
   .page {
     height: 100%;
     margin-top: 0;
