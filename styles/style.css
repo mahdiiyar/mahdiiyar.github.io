@@ -53,7 +53,7 @@ main-page-pic {
 } */
 
 [pic1] {
-  background: url(../img/img1hand.jpeg) no-repeat fixed center/var(--width);
+  background: url(../img/img1hand.jpeg) no-repeat fixed var(--width);
   background-position: 30%;
 }
 
