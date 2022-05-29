@@ -23,6 +23,11 @@ main-pics {
   padding-top: var(--base);
 
 }
+
+main-page-pic {
+  position: relative;
+}
+
 :is([pic1], [pic2], [pic3]) {
   border-radius: 5px;
   border: 3px solid rgb(164, 164, 164);
@@ -49,7 +54,7 @@ main-pics {
 
 [pic1] {
   background: url(../img/img1hand.jpeg) no-repeat fixed center/var(--width);
-  /* background-position: 30%; */
+  background-position: 30%;
 }
 
 [pic2] {
@@ -58,7 +63,7 @@ main-pics {
 
 [pic3] {
   background: url(../img/img3.jpeg) no-repeat fixed center/var(--width);
-  /* background-position: 35%; */
+  background-position: 35%;
 }
 
 :is([pic1], [pic2], [pic3])::before {
