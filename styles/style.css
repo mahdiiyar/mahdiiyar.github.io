@@ -28,6 +28,7 @@ main-pics {
   border: 3px solid rgb(164, 164, 164);
   box-shadow: 6px 3px 4px rgba(119, 119, 119, 0.7);
   transform: scale(0.9) skewX(-20deg);
+  -webkit-transform: scale(0.9) skewX(-20deg);
   position: sticky;
   /* height: calc(var(--base) * 5); */
   transition: var(--transition);
@@ -36,8 +37,10 @@ main-pics {
 
 :is([pic1], [pic2], [pic3]):hover {
   transform: scale(1) skewX(-20deg);
+  -webkit-transform: scale(1) skewX(-20deg);
   box-shadow: 30px 15px 4px rgba(69, 69, 69, 0.8);
   cursor: pointer;
+  
 }
 
 /* :is([pic1], [pic2], [pic3]):hover::before {
@@ -47,6 +50,7 @@ main-pics {
 [pic1] {
   background: url(../img/img1hand.jpeg) no-repeat fixed center/var(--width);
   background-position: 30%;
+  webkit-background-position: 30%;
 }
 
 [pic2] {
