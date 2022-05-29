@@ -49,8 +49,7 @@ main-pics {
 
 [pic1] {
   background: url(../img/img1hand.jpeg) no-repeat fixed center/var(--width);
-  background-position: 30%;
-  webkit-background-position: 30%;
+  /* background-position: 30%; */
 }
 
 [pic2] {
@@ -59,7 +58,7 @@ main-pics {
 
 [pic3] {
   background: url(../img/img3.jpeg) no-repeat fixed center/var(--width);
-  background-position: 35%;
+  /* background-position: 35%; */
 }
 
 :is([pic1], [pic2], [pic3])::before {
