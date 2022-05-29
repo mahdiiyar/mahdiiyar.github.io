@@ -269,6 +269,10 @@ img {
 }
 
 @media (max-width: 750px) {
+  html, body {
+    max-width: 300px;
+    overflow: hidden;
+  }
   .page {
     height: 100%;
     margin-top: 0;
