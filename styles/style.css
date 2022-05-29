@@ -58,11 +58,11 @@ main-page-pic {
 }
 
 [pic2] {
-  background: url(../img/img4.webp) no-repeat fixed center/calc(var(--width) * 1.1);
+  background: url(../img/img4.webp) no-repeat fixed center/calc(var(--width) * 1.3);
 }
 
 [pic3] {
-  background: url(../img/img3.jpeg) no-repeat fixed center/var(--width);
+  background: url(../img/img3.jpeg) no-repeat fixed var(--width);
   background-position: 35%;
 }
 
