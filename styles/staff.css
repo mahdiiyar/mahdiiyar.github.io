@@ -1,55 +1,3 @@
-/* side-bar {
-  display: grid;
-  grid-template-rows: repeat(8, 1fr);
-  width: 220px;
-  height: 78vh;
-  padding-top: 3vh;
-}
-
-img-btn {
-  position: sticky;
-  background-color: yellow;
-  display: flex;
-  align-items: center;
-  transform: scale(0.9);
-  transition: var(--transition);
-
-}
-
-img-btn.clicked {
-  padding-left: 100px;
-}
-
-img-btn.clicked::after {
-  content: '';
-  clear: both;
-  
-}
-
-
-img-btn img {
-  width: 55px;
-  height: 55px;
-  object-fit: cover;
-  border-radius: 100%;
-  border: 3px solid white;
-  pointer-events: none;
-}
-
-
-img-btn::after {
-  content: attr(person-title);
-  font-weight: 500;
-  padding-left: 2vh;
-  pointer-events: none;
-  transition: content 1s;
-  
-} */
-
-
-/* new sidebar with choosing and opening in same page option */
-
-
 html, body, .page{
   width: 100%;
   /* height: calc(var(--base) * 4.4); */
@@ -62,10 +10,6 @@ html, body, .page{
   transition: all 0.8s cubic-bezier(0.95, 0.5, 0.495, 0.35);
   -webkit-transition: all 0.8s cubic-bezier(0.95, 0.5, 0.495, 0.35);
 
-}
-
-body {
-  position: relative;
 }
 
 .page {
@@ -273,6 +217,16 @@ img {
 }
 
 @media (max-width: 750px) {
+  html, body {
+    position: relative;
+    height: 100%;
+    margin-top: 0;
+  }
+
+  .openbtn::before {
+    margin-top: 1.6vh;
+  }
+
   .page {
     height: 100%;
     margin-top: 0;
