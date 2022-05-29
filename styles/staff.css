@@ -51,15 +51,14 @@ img-btn::after {
 
 
 html, body, .page{
-  width: 100%;
+  max-width: 100%;
   /* height: calc(var(--base) * 4.4); */
   height: 83%;
   margin: 0;
   padding: 0;
   color: white;
-  overflow: hidden;
+  overflow-x: hidden;
   margin-top: 3vh;
-  /* margin-bottom: -5000px; */
   transition: all 0.8s cubic-bezier(0.95, 0.5, 0.495, 0.35);
   -webkit-transition: all 0.8s cubic-bezier(0.95, 0.5, 0.495, 0.35);
 
@@ -67,7 +66,7 @@ html, body, .page{
 
 .page {
   position: absolute;
-  overflow: scroll;
+  overflow-y: scroll;
   margin-top: 6vh;
 }
 
