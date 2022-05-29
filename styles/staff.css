@@ -67,7 +67,7 @@ body, .page{
 
 .page {
   position: absolute;
-  overflow: scroll;
+  /* overflow: scroll; */
   margin-top: 6vh;
 }
 
