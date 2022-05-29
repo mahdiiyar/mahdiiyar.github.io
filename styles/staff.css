@@ -50,7 +50,7 @@ img-btn::after {
 /* new sidebar with choosing and opening in same page option */
 
 
-body, .page{
+html, body, .page{
   width: 100%;
   /* height: calc(var(--base) * 4.4); */
   height: 83%;
@@ -67,7 +67,7 @@ body, .page{
 
 .page {
   position: absolute;
-  /* overflow: scroll; */
+  overflow: scroll;
   margin-top: 6vh;
 }
 
